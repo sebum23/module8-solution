@@ -1,0 +1,6 @@
+<ul>
+  <li ng-repeat="item in narrowItDown.items">
+    {{ item.name }} ({{ item.short_name }}) {{ item.description }}
+    <Button type="button" class="btn btn-danger" ng-click="narrowItDown.onRemove($index);">Don't want this one!</Button>
+  </li>
+</ul>
