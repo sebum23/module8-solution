@@ -31,6 +31,7 @@
       } else {
         console.log("should show message");
         narrowItDown.message = "Nothing found";
+        narrowItDown.found = [];
       }
     };
 
